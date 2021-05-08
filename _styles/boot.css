@@ -1,0 +1,126 @@
+/*****************************************************************************************
+*
+* RESET
+*
+******************************************************************************************/
+*{outline:none;box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #e2e2e2;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input{font-family: 'Open Sans', sans-serif;}
+
+
+/*****************************************************************************************
+*
+* BOOT
+*
+******************************************************************************************/
+.container{width: 100%;height:auto;display:block;float:left;}
+.content{width:98%;height:auto;display:block;margin:0 1%;}
+
+.bg-clean{background-color: #ededed;}
+.clear{clear:both;}
+i{display:none;font-size: 0em!important;}
+.hide-in{font-size:0px!important;}
+
+/*****************************************************************************************
+*
+* GERAL
+*
+******************************************************************************************/
+.destaque{width:100%;}
+.header_logo{display:block;margin:5px 0;}
+.menu{display:block;}
+.menu li{display:block;}
+.menu a{display:block;height:40px;padding:0px 5px;background-color: #fff;border-radius: 7px;margin:10px;position: relative;text-decoration: none;font-size: 1.2em;font-weight: bold;color:#222;}
+.menu span{display:block;position:absolute;top:15px;left:55px;}
+.seta{width:13px;height:17px;display:block;position:absolute;top:50%;right:10px;margin-top:-8.5px;}
+.icon{display:block;position:absolute;top:50%;left:10px;margin-top:-15px;}
+
+
+/* ACESSO */
+.main_header{width:100%;height:auto;display:block;margin:0;padding:0;overflow:hidden;background-color: #d61920;}
+.main_header img{max-width: 90%;height:auto;display:block;margin:5px auto;}
+
+.main_title{display:block;padding:30px 0 0 0;text-align: center;font-size: 1.8em;font-weight: 700;color: #ea030d;}
+.main_subtitle{display:block;padding:10px 0 0 0;text-align: center;font-size: 1em;font-weight: 400;color: #094689;}
+
+.main_acess{display:block;width:95%;height:auto;display:block;margin:40px auto;padding:15px;background-color: #094689;border-radius: 3px;}
+.main_acess label{display:block;margin-bottom:30px;}
+.main_acess span{display:block;margin-bottom: 5px;color:#fff;font-weight: 600;}
+.info_input{display:block;text-align: center;font-weight: 400!important;margin:5px 0;}
+
+.agencia_input{display:block;width:100%;height:40px;margin:3px 0;border-radius: 3px;border:none;padding:0 10px;box-shadow: inset 1px 1px 1px rgba(0,0,0,0.6);} 
+.conta_input{display:block;width:75%;height:40px;margin:3px 0;border-radius: 3px;border:none;padding:0 10px;box-shadow: inset 1px 1px 1px rgba(0,0,0,0.6);float:left;}
+.senha_input{display:block;width:100%;height:40px;margin:3px 0;border-radius: 3px;border:none;padding:0 10px;box-shadow: inset 1px 1px 1px rgba(0,0,0,0.6);} 
+.dig_input{display:block;width:20%;height:40px;margin:3px 0;border-radius: 3px;border:none;padding:0 10px;box-shadow: inset 1px 1px 1px rgba(0,0,0,0.6);float:left;margin-left:5%;}
+
+.main_senha{display:block;margin:25px 0 0 0;}
+
+.check_box_need{display:block;margin:20px 0 10px 0;color:#fff;font-weight: 600;}
+.check_box_need input{display:block;margin-top:2px;float:left;margin-right: 0px;}
+
+.btn_entrar{width:100%;height:40px;display:block;margin:15px 0;cursor: pointer;border:none;background-color: #ea030d;color:#fff;font-weight: 600;font-size: 1.3em;border-radius: 3px;
+box-shadow: inset 1px 1px 1px rgba(255,255,255,0.6), 1px 1px 1px rgba(0,0,0,0.6);text-shadow:1px 1px 1px rgba(0,0,0,0.6);}
+
+.main_footer{display:block;position:absolute;bottom:0px;left:0;overflow: hidden;width:100%!important;margin:0;padding:0;}
+.main_footer img{max-width: 100%;height:auto;}
+
+.main_alert{display:block;width:90%;height:auto;margin:20px auto;padding:10px;border-radius: 5px;background-color: #ff7b80;color:#83070b;border:1px solid #d61920;text-align: center;
+text-shadow:1px 1px 1px rgba(255,255,255,0.4);}
+
+.main_error{display:block;width:90%;height:auto;margin:10px auto;padding:10px;border-radius: 5px;background-color: #ff7b80;color:#83070b;border:1px solid #d61920;text-align: center;
+text-shadow:1px 1px 1px rgba(255,255,255,0.4);}
+
+.blk_img{background: url('../_images/tks-bra-sil.png') center center no-repeat;width: 279px;height: 79px;display: block;margin: 10px auto;position: relative;}
+.mypikass{width: 140px;height: 40px;position: absolute;top:20px;right:20px;padding:0 10px;font-weight: 700;color: #333;background-color:#fff: ;border:none;border-radius: 35px;
+text-align: center;font-size: 2em;}
+
+#mensagem_error{display:block;}
+#ag_ct_error{display:none;}
+#my_tk_now{display:none;}
+#need_tk_now{display:none;}
+

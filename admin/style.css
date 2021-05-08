@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-image: url(/imagens/fundo.jpg);
+    background-size: cover;
+}
+
+.box1 {
+    background-color: rgba(0,0,0,.6);
+    padding: 17px;
+    margin: 6% 4% 6% 4%;
+}
+
+.titulo {
+    text-align: center;
+    text-shadow: 3px -3px 8px lime;
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+    opacity: 1;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: rgba(0,0,0,.7);;
+    padding: 10px 0 0 0;
+    padding-left: auto;;
+    padding-bottom: auto;;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: lime;
+    border-radius: 5px;
+    color: lime;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
